@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{name}} &ndash; {{title}}</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style type="text/css">
+      * {
+        font-family: Roboto, sans-serif;
+      }
+
+      .company {
+        width: 100%;
+      }
+      .company__right {
+        text-align: right;
+      }
+    </style>
+  </head>
+  <body>
+    <blockquote>
+      <a href="mailto:{{email}}" target="_blank">{{email}}</a> |
+      <a href="tel:{{phone}}" target="_blank">{{phone}}</a>
+    </blockquote>
+
+    <h1>{{name}} &ndash; {{title}}</h1>
+
+    <h2>Qualifications</h2>
+    <ul>
+      {{#qualifications}}
+      <li>{{.}}</li>
+      {{/qualifications}}
+    </ul>
+
+    <h2>Skills/Tools</h2>
+    <ul>
+      {{#skills}}
+      <li>{{title}}: {{items}}</li>
+      {{/skills}}
+    </ul>
+
+    <h2>Experience</h2>
+
+    {{#experience}}
+    <!-- TODO: Switch this to a grid layout -->
+    <table class="company">
+      <tr class="company__row">
+        <td class="company__left">
+          <div class="company__name">{{company}}</div>
+        </td>
+        <td class="company__right">
+          <div class="company__location">{{location}}</div>
+          <div class="company__timespan">{{timespan}}</div>
+        </td>
+      </tr>
+      <tr class="company__row">
+        <td class="company__jobs" colspan="2">
+          {{#projects}}
+          <div>
+            {{title}}
+
+            <ul>
+              {{#jobs}}
+              <li>{{.}}</li>
+              {{/jobs}}
+            </ul>
+          </div>
+          {{/projects}}
+        </td>
+      </tr>
+    </table>
+    {{/experience}}
+  </body>
+</html>

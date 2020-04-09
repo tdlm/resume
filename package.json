@@ -14,14 +14,29 @@
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-clean": "^0.4.0",
-    "gulp-markdown": "^5.0.1",
-    "gulp-markdown-pdf": "^8.0.0",
-    "gulp-rename": "^2.0.0"
+    "gulp-html-pdf": "^0.3.0",
+    "gulp-mustache": "^5.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-template": "^5.0.0"
   },
   "prettier": {
     "arrowParens": "avoid",
     "bracketSpacing": true,
     "singleQuote": true,
-    "trailingComma": "all"
+    "trailingComma": "all",
+    "overrides": [
+      {
+        "files": "src/templates/*.html.mustache",
+        "options": {
+          "parser": "html"
+        }
+      },
+      {
+        "files": "src/templates/*.md.mustache",
+        "options": {
+          "parser": "markdown"
+        }
+      }
+    ]
   }
 }

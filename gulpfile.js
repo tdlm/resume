@@ -1,7 +1,7 @@
 const gulp = require('gulp');
 const gulpClean = require('gulp-clean');
-const gulpMarkdown = require('gulp-markdown');
-const gulpMarkdownPdf = require('gulp-markdown-pdf');
+const gulpHtmlPdf = require('gulp-html-pdf');
+const gulpMustache = require('gulp-mustache');
 const gulpRename = require('gulp-rename');
 
 /**
@@ -19,25 +19,41 @@ function cleanDist(cb) {
  */
 function generatePdf(cb) {
   gulp
-    .src('src/*.md')
-    .pipe(gulpMarkdownPdf())
-    .pipe(gulpRename({ extname: `.pdf` }))
+    .src('dist/*.html')
+    .pipe(gulpHtmlPdf())
+    .pipe(gulpRename({ extname: '.pdf' }))
     .pipe(gulp.dest('dist'));
 
   cb();
 }
 
-/**
- * Generate HTML version of resume.
- * @param {function} cb Callback function.
- */
 function generateHTML(cb) {
   gulp
-    .src('src/*.md')
-    .pipe(gulpMarkdown({ mangle: true, headerIds: true }))
-    .pipe(gulpRename({ extname: `.html` }))
+    .src('src/templates/scott-weaver_resume.html.mustache')
+    .pipe(
+      gulpMustache(
+        'src/data/resume.json',
+        {},
+        { jorbs: [{ name: 'frank' }, { name: 'jim' }] },
+      ),
+    )
+    .pipe(gulpRename({ extname: '' }))
     .pipe(gulp.dest('dist'));
+  cb();
+}
 
+function generateMarkdown(cb) {
+  gulp
+    .src('src/templates/scott-weaver_resume.md.mustache')
+    .pipe(
+      gulpMustache(
+        'src/data/resume.json',
+        {},
+        { jorbs: [{ name: 'frank' }, { name: 'jim' }] },
+      ),
+    )
+    .pipe(gulpRename({ extname: '' }))
+    .pipe(gulp.dest('dist'));
   cb();
 }
 
@@ -46,11 +62,20 @@ function generateHTML(cb) {
  * @param {function} cb Callback function.
  */
 function watch(cb) {
-  gulp.watch('src/*.md', gulp.series(generatePdf, generateHTML));
+  gulp.series(cleanDist, generateHTML, generatePdf, generateMarkdown);
+  gulp.watch(
+    'src/**/*.*',
+    gulp.series(generateHTML, generatePdf, generateMarkdown),
+  );
   cb();
 }
 
-exports.build = gulp.series(cleanDist, generatePdf, generateHTML);
+exports.build = gulp.series(
+  cleanDist,
+  generateHTML,
+  generatePdf,
+  generateMarkdown,
+);
 exports.clean = cleanDist;
 exports.watch = watch;
 exports.default = watch;

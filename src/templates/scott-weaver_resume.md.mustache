@@ -1,0 +1,45 @@
+> [{{email}}](mailto:{{email}}) | [{{phone}}](tel:{{phone}})
+
+# {{name}}
+
+## Qualifications
+
+{{#qualifications}}
+
+- {{.}}
+
+{{/qualifications}}
+
+---
+
+## Skills
+
+{{#skills}}
+
+- **{{title}}**: {{items}}
+
+{{/skills}}
+
+---
+
+## Experience
+
+{{#experience}}
+
+**{{company}} - {{location}}**
+
+{{timespan}}
+
+{{#projects}}
+
+{{title}}
+
+{{#jobs}}
+
+- {{.}}
+
+{{/jobs}}
+
+{{/projects}}
+
+{{/experience}}
