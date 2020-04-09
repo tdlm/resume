@@ -38,10 +38,10 @@
     { "language": "Italian", "proficiency": "Beginner" }
   ],
   "qualifications": [
+    "Full stack engineer with focus on front-end technologies",
     "Writes well-tested, clean code with easy-to-read documentation",
     "Has strong analytical skills and loves resolving bugs",
-    "Enjoys learning, challenges and working with team members to accomplish goals",
-    "Takes care to communicate effectively!"
+    "Enjoys learning, challenges and working with team members to accomplish goals"
   ],
   "skills": [
     {
@@ -117,7 +117,7 @@
         {
           "title": "Senior Full Stack Developer, Vocativ.com",
           "jobs": [
-            "Lead developer for REST API development",
+            "Led development for REST API",
             "Built REST API endpoint for SocialMap feature using Node.js and MongoDB",
             "Built test-covered React components for front-end",
             "Performed daily code reviews on all new features and bug fixes using Github",

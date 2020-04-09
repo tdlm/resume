@@ -48,34 +48,41 @@
         padding-left: 20px;
       }
 
+      /* Company */
       .company {
         width: 100%;
-      }
-      .company__right {
-        text-align: right;
-        vertical-align: top;
-      }
-      .company__name {
-        font-weight: bold;
-        font-size: 20px;
-      }
-      .company__location {
-        color: #999;
       }
       .company__timespan {
         color: #555;
         font-style: italic;
         margin: 0;
       }
-      .company__job__title {
+      .company__company__name {
+        display: inline-block;
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      .company__company__location {
+        color: #999;
+        font-size: 20px;
+        font-weight: 600;
+        display: inline-block;
+        text-transform: uppercase;
+      }
+      .company__company__location::before {
+        content: '\2022  ';
+      }
+      .company__project__title {
         color: #333;
       }
 
+      /* References */
       .reference__text {
-        font-size: 12px;
+        font-size: 14px;
       }
       .reference__from {
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 600;
       }
     </style>
@@ -106,34 +113,24 @@
       <h2>Professional Experience</h2>
 
       {{#experience}}
-      <table class="company">
-        <tr class="company__row">
-          <td class="company__left">
-            <div class="company__name">
-              {{company}}
-            </div>
-            <div class="company__location">{{location}}</div>
-          </td>
-          <td class="company__right">
-            <div class="company__timespan">{{timespan}}</div>
-          </td>
-        </tr>
-        <tr class="company__row">
-          <td class="company__jobs" colspan="2">
-            {{#projects}}
-            <div cass="company__job">
-              <h4 class="company__job__title">{{title}}</h4>
+      <div class="company">
+        <div class="company__company__name">{{company}}</div>
+        <div class="company__company__location">{{location}}</div>
+        <div class="company__timespan">{{timespan}}</div>
+        <div class="company__projects">
+          {{#projects}}
+          <div cass="company__projects__project">
+            <h4 class="company__projects__project__title">{{title}}</h4>
 
-              <ul>
-                {{#jobs}}
-                <li>{{.}}</li>
-                {{/jobs}}
-              </ul>
-            </div>
-            {{/projects}}
-          </td>
-        </tr>
-      </table>
+            <ul>
+              {{#jobs}}
+              <li>{{.}}</li>
+              {{/jobs}}
+            </ul>
+          </div>
+          {{/projects}}
+        </div>
+      </div>
       {{/experience}}
 
       <h2>References</h2>

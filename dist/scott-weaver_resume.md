@@ -5,6 +5,9 @@
 ## Qualifications
 
 
+- Full stack engineer with focus on front-end technologies
+
+
 - Writes well-tested, clean code with easy-to-read documentation
 
 
@@ -12,9 +15,6 @@
 
 
 - Enjoys learning, challenges and working with team members to accomplish goals
-
-
-- Takes care to communicate effectively!
 
 
 ---
@@ -107,7 +107,7 @@ January 2014 - December 2016
 Senior Full Stack Developer, Vocativ.com
 
 
-- Lead developer for REST API development
+- Led development for REST API
 
 
 - Built REST API endpoint for SocialMap feature using Node.js and MongoDB
