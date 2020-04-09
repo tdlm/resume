@@ -205,3 +205,23 @@ Sr. Software Engineer
 
 
 
+
+---
+
+## References
+
+
+> Scott Weaver is not only a highly-skilled developer and a quick-witted problem solver. He is also an even-tempered leader that develops teams with humor, patience, and a deep understanding of necessary technologies.
+>
+> **- Nicholas Campbell, Front-end Developer at Sagepath**
+
+
+> Scott is one of the most gifted and reliable developers I&#39;ve had the pleasure to work with. We worked remotely in a dynamic team, where he was able to both deliver on tough deadlines, as well as keep his teammates up to speed. I would highly recommend him as a rock solid foundation to a high level dev team.
+>
+> **- Asaf Zamir, CTO at Cloud With Me**
+
+
+> Scott has always been very knowledgeable as a developer. He has very strong PHP, and MySQL skills as well as a desire to learn as much as possible about subjects that interest him. In the year that I worked with him I learned a lot about web development, and even now that we don&#39;t work together but stayed friends, I continue to learn from him. I would highly recommend Scott to anyone or any company that needs a qualified developer.
+>
+> **- Javier Martinez, Software Developer at BLITZ**
+

@@ -3,6 +3,40 @@
   "title": "Sr. Full Stack Engineer",
   "email": "scottmweaver@gmail.com",
   "phone": "949-209-9040",
+  "website": "https://scottmw.com",
+  "about": "Scott has been programming since the age of 10 and has over 15 years of professional experience in web application development. While his focus has been mainly on PHP-based development platforms (Drupal, WordPress, Magento), more recently he has focused on the benefits of using Node.js+React in conjunction with REST API to create a much-improved, isomorphic experience for the end user that scales well. Outside of work, his interests run from writing short fiction to creating/improving open source projects.",
+  "profiles": [
+    {
+      "service": "Github",
+      "username": "tdlm",
+      "url": "https://github.com/tdlm"
+    },
+    {
+      "service": "LinkedIn",
+      "username": "scottmw",
+      "url": "https://www.linkedin.com/in/scottmw"
+    },
+    {
+      "service": "AngelList",
+      "username": "tdlm",
+      "url": "https://angel.co/tdlm"
+    },
+    {
+      "service": "Twitter",
+      "username": "@turtleofdeath",
+      "url": "https://twitter.com/turtleofdeath"
+    },
+    {
+      "service": "StackExchange",
+      "username": "tdlm",
+      "url": "http://stackexchange.com/users/1098787/tdlm?tab=accounts"
+    }
+  ],
+  "languages": [
+    { "language": "English", "proficiency": "Native speaker" },
+    { "language": "Spanish", "proficiency": "Beginner" },
+    { "language": "Italian", "proficiency": "Beginner" }
+  ],
   "qualifications": [
     "Writes well-tested, clean code with easy-to-read documentation",
     "Has strong analytical skills and loves resolving bugs",
@@ -145,6 +179,22 @@
           ]
         }
       ]
+    }
+  ],
+  "references": [
+    {
+      "from": "Nicholas Campbell, Front-end Developer at Sagepath",
+      "url": "https://github.com/campbellnicholas",
+      "text": "Scott Weaver is not only a highly-skilled developer and a quick-witted problem solver. He is also an even-tempered leader that develops teams with humor, patience, and a deep understanding of necessary technologies."
+    },
+    {
+      "from": "Asaf Zamir, CTO at Cloud With Me",
+      "url": "https://github.com/kidsil",
+      "text": "Scott is one of the most gifted and reliable developers I've had the pleasure to work with. We worked remotely in a dynamic team, where he was able to both deliver on tough deadlines, as well as keep his teammates up to speed. I would highly recommend him as a rock solid foundation to a high level dev team."
+    },
+    {
+      "from": "Javier Martinez, Software Developer at BLITZ",
+      "text": "Scott has always been very knowledgeable as a developer. He has very strong PHP, and MySQL skills as well as a desire to learn as much as possible about subjects that interest him. In the year that I worked with him I learned a lot about web development, and even now that we don't work together but stayed friends, I continue to learn from him. I would highly recommend Scott to anyone or any company that needs a qualified developer."
     }
   ]
 }

@@ -30,13 +30,7 @@ function generatePdf(cb) {
 function generateHTML(cb) {
   gulp
     .src('src/templates/scott-weaver_resume.html.mustache')
-    .pipe(
-      gulpMustache(
-        'src/data/resume.json',
-        {},
-        { jorbs: [{ name: 'frank' }, { name: 'jim' }] },
-      ),
-    )
+    .pipe(gulpMustache('src/data/resume.json'))
     .pipe(gulpRename({ extname: '' }))
     .pipe(gulp.dest('dist'));
   cb();
@@ -45,13 +39,7 @@ function generateHTML(cb) {
 function generateMarkdown(cb) {
   gulp
     .src('src/templates/scott-weaver_resume.md.mustache')
-    .pipe(
-      gulpMustache(
-        'src/data/resume.json',
-        {},
-        { jorbs: [{ name: 'frank' }, { name: 'jim' }] },
-      ),
-    )
+    .pipe(gulpMustache('src/data/resume.json'))
     .pipe(gulpRename({ extname: '' }))
     .pipe(gulp.dest('dist'));
   cb();

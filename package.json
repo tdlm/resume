@@ -17,7 +17,8 @@
     "gulp-html-pdf": "^0.3.0",
     "gulp-mustache": "^5.0.0",
     "gulp-rename": "^2.0.0",
-    "gulp-template": "^5.0.0"
+    "gulp-template": "^5.0.0",
+    "gulp-yaml": "^2.0.4"
   },
   "prettier": {
     "arrowParens": "avoid",
