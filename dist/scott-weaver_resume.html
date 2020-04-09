@@ -18,15 +18,15 @@
       }
 
       h2 {
+        border-bottom: 1px solid #ccc;
         color: #1bab9e;
         text-transform: uppercase;
-        border-bottom: 1px solid #ccc;
       }
 
       .container {
         margin: 0 auto;
-        width: 100%;
         max-width: 800px;
+        width: 100%;
       }
 
       ul {
@@ -34,18 +34,18 @@
       }
 
       ul li::before {
-        content: '\2022';
         color: #999;
-        font-weight: bold;
+        content: '\2022';
         display: inline-block;
-        width: 1em;
+        font-weight: bold;
         margin-left: -1em;
+        width: 1em;
       }
 
-      .contact-info {
+      blockquote {
+        border-left: 5px solid #e7e9ec;
         margin-left: 0;
         padding-left: 20px;
-        border-left: 5px solid #e7e9ec;
       }
 
       .company {
@@ -64,11 +64,19 @@
       }
       .company__timespan {
         color: #555;
-        margin: 0;
         font-style: italic;
+        margin: 0;
       }
       .company__job__title {
         color: #333;
+      }
+
+      .reference__text {
+        font-size: 12px;
+      }
+      .reference__from {
+        font-size: 14px;
+        font-weight: 600;
       }
     </style>
   </head>
@@ -267,6 +275,20 @@
           </td>
         </tr>
       </table>
+
+      <h2>References</h2>
+      <blockquote class="reference">
+        <p class="reference__text">Scott Weaver is not only a highly-skilled developer and a quick-witted problem solver. He is also an even-tempered leader that develops teams with humor, patience, and a deep understanding of necessary technologies.</p>
+        <p class="reference__from">&ndash; Nicholas Campbell, Front-end Developer at Sagepath</p>
+      </blockquote>
+      <blockquote class="reference">
+        <p class="reference__text">Scott is one of the most gifted and reliable developers I&#39;ve had the pleasure to work with. We worked remotely in a dynamic team, where he was able to both deliver on tough deadlines, as well as keep his teammates up to speed. I would highly recommend him as a rock solid foundation to a high level dev team.</p>
+        <p class="reference__from">&ndash; Asaf Zamir, CTO at Cloud With Me</p>
+      </blockquote>
+      <blockquote class="reference">
+        <p class="reference__text">Scott has always been very knowledgeable as a developer. He has very strong PHP, and MySQL skills as well as a desire to learn as much as possible about subjects that interest him. In the year that I worked with him I learned a lot about web development, and even now that we don&#39;t work together but stayed friends, I continue to learn from him. I would highly recommend Scott to anyone or any company that needs a qualified developer.</p>
+        <p class="reference__from">&ndash; Javier Martinez, Software Developer at BLITZ</p>
+      </blockquote>
     </div>
   </body>
 </html>
