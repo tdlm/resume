@@ -1,6 +1,6 @@
 const gulp = require('gulp');
 const gulpClean = require('gulp-clean');
-const gulpHtmlPdf = require('gulp-html-pdf');
+const gulpHtmlPdf = require('gulp-html2pdf');
 const gulpMustache = require('gulp-mustache');
 const gulpRename = require('gulp-rename');
 
@@ -18,11 +18,7 @@ function cleanDist(cb) {
  * @param {function} cb Callback function.
  */
 function generatePdf(cb) {
-  gulp
-    .src('dist/*.html')
-    .pipe(gulpHtmlPdf())
-    .pipe(gulpRename({ extname: '.pdf' }))
-    .pipe(gulp.dest('dist'));
+  gulp.src('dist/*.html').pipe(gulpHtmlPdf()).pipe(gulp.dest('dist'));
 
   cb();
 }
