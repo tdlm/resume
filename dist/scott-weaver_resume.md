@@ -75,10 +75,10 @@ Senior Full Stack Developer and Team Lead, USA Today Sports
 - Led team to migrate Food Channel from Django to WordPress VIP platform
 
 
-- Assist team to maintain Continuous Integration processes
+- Assisted team to maintain Continuous Integration processes
 
 
-- Assist team in augmenting test coverage and accessibility for existing and new features
+- Assisted team in augmenting test coverage and accessibility for existing and new features
 
 
 
