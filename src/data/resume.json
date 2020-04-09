@@ -1,6 +1,6 @@
 {
   "name": "Scott Weaver",
-  "title": "Sr. Full Stack Engineer",
+  "title": "Senior Full Stack Engineer",
   "email": "scottmweaver@gmail.com",
   "phone": "949-209-9040",
   "website": "https://scottmw.com",
@@ -68,12 +68,12 @@
   "experience": [
     {
       "company": "The Walt Disney Company",
-      "title": "Sr. Full Stack Engineer",
+      "title": "Senior Full Stack Engineer",
       "location": "Burbank, CA",
       "timespan": "March 2020 - Present",
       "projects": [
         {
-          "title": "Sr. Full Stack Engineer, Newsreel",
+          "title": "Senior Full Stack Engineer, Newsreel",
           "jobs": [
             "Assist team to implement features, maintenance and bug fixes on a variety of internal-facing Disney properties"
           ]
@@ -82,12 +82,12 @@
     },
     {
       "company": "Human Made Global",
-      "title": "Sr. Full Stack Engineer and Team Lead, USA Today Sports",
-      "location": "Remote (Work from Home), US",
+      "title": "Senior Full Stack Engineer and Team Lead, USA Today Sports",
+      "location": "Remote",
       "timespan": "January 2017 - March 2020",
       "projects": [
         {
-          "title": "Sr. Full Stack Developer and Team Lead, USA Today Sports",
+          "title": "Senior Full Stack Developer and Team Lead, USA Today Sports",
           "jobs": [
             "Led team to rebuild the NCAA Fantasy Sports Brackets product using React+Redux on top of WordPress back-end with custom WebPack configuration",
             "Created plugin to facilitate ongoing content import from Content API GraphQL endpoint to various key sites",
@@ -98,7 +98,7 @@
           ]
         },
         {
-          "title": "Sr. Full Stack Developer, Encompass Health",
+          "title": "Senior Full Stack Developer, Encompass Health",
           "jobs": [
             "Worked with team to migrate client from custom CMS to WordPress on short timeline",
             "Implemented strong accessibility standards throughout",
@@ -110,12 +110,12 @@
     },
     {
       "company": "Vocativ",
-      "title": "Sr. Full Stack Developer",
-      "location": "Remote (Work from Home), US",
+      "title": "Senior Full Stack Developer",
+      "location": "Remote",
       "timespan": "January 2014 - December 2016",
       "projects": [
         {
-          "title": "Sr. Full Stack Developer, Vocativ.com",
+          "title": "Senior Full Stack Developer, Vocativ.com",
           "jobs": [
             "Lead developer for REST API development",
             "Built REST API endpoint for SocialMap feature using Node.js and MongoDB",
@@ -145,7 +145,7 @@
           ]
         },
         {
-          "title": "Sr. Software Engineer, TOMS.com",
+          "title": "Senior Software Engineer, TOMS.com",
           "jobs": [
             "Built back-end portion of a Magento module for new online Return process (RMA) and supported front-end developers",
             "Built Magento module to improve cache invalidation using URLs rather than existing cache keys, and used SQS to perform debounced invalidation requests",
@@ -161,7 +161,7 @@
       "timespan": "September 2010 - April 2012",
       "projects": [
         {
-          "title": "Sr. Software Engineer and Team Lead, Ray-ban.com",
+          "title": "Senior Software Engineer and Team Lead, Ray-ban.com",
           "jobs": [
             "Led Ray-Ban back-end development team for general feature and bug support",
             "Built SAP module for Magento to handle price and status updates, and order exports",
@@ -170,7 +170,7 @@
           ]
         },
         {
-          "title": "Sr. Software Engineer",
+          "title": "Senior Software Engineer",
           "jobs": [
             "Built Fraud Detection module for Magento",
             "Created LDAP Authentication module for Magento",

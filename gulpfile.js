@@ -1,4 +1,4 @@
-const gulp = require('gulp');
+const { dest, series, parallel, src, watch } = require('gulp');
 const gulpClean = require('gulp-clean');
 const gulpHtmlPdf = require('gulp-html2pdf');
 const gulpMustache = require('gulp-mustache');
@@ -8,8 +8,8 @@ const gulpRename = require('gulp-rename');
  * Clean distribution folder.
  * @param {function} cb Callback function.
  */
-function cleanDist(cb) {
-  gulp.src('dist/*', { read: false }).pipe(gulpClean());
+function clean(cb) {
+  src('dist/*', { read: false }).pipe(gulpClean());
   cb();
 }
 
@@ -17,27 +17,25 @@ function cleanDist(cb) {
  * Generate PDF version of resume.
  * @param {function} cb Callback function.
  */
-function generatePdf(cb) {
-  gulp.src('dist/*.html').pipe(gulpHtmlPdf()).pipe(gulp.dest('dist'));
+function pdf(cb) {
+  src('dist/scott-weaver_resume.html').pipe(gulpHtmlPdf()).pipe(dest('dist'));
 
   cb();
 }
 
-function generateHTML(cb) {
-  gulp
-    .src('src/templates/scott-weaver_resume.html.mustache')
+function html(cb) {
+  src('src/templates/scott-weaver_resume.html.mustache')
     .pipe(gulpMustache('src/data/resume.json'))
     .pipe(gulpRename({ extname: '' }))
-    .pipe(gulp.dest('dist'));
+    .pipe(dest('dist'));
   cb();
 }
 
-function generateMarkdown(cb) {
-  gulp
-    .src('src/templates/scott-weaver_resume.md.mustache')
+function markdown(cb) {
+  src('src/templates/scott-weaver_resume.md.mustache')
     .pipe(gulpMustache('src/data/resume.json'))
     .pipe(gulpRename({ extname: '' }))
-    .pipe(gulp.dest('dist'));
+    .pipe(dest('dist'));
   cb();
 }
 
@@ -45,21 +43,13 @@ function generateMarkdown(cb) {
  * Watch src directory for markdown files.
  * @param {function} cb Callback function.
  */
-function watch(cb) {
-  gulp.series(cleanDist, generateHTML, generatePdf, generateMarkdown);
-  gulp.watch(
-    'src/**/*.*',
-    gulp.series(generateHTML, generatePdf, generateMarkdown),
-  );
+function watcher(cb) {
+  series(clean, html, pdf, markdown);
+  watch('src/**/*.*', series(clean, html, parallel(markdown, pdf)));
   cb();
 }
 
-exports.build = gulp.series(
-  cleanDist,
-  generateHTML,
-  generatePdf,
-  generateMarkdown,
-);
-exports.clean = cleanDist;
-exports.watch = watch;
-exports.default = watch;
+exports.build = series(clean, html, parallel(markdown, pdf));
+exports.clean = clean;
+exports.watcher = watcher;
+exports.default = watcher;

@@ -47,7 +47,7 @@
 March 2020 - Present
 
 
-Sr. Full Stack Engineer, Newsreel
+Senior Full Stack Engineer, Newsreel
 
 
 - Assist team to implement features, maintenance and bug fixes on a variety of internal-facing Disney properties
@@ -55,12 +55,12 @@ Sr. Full Stack Engineer, Newsreel
 
 
 
-**Human Made Global - Remote (Work from Home), US**
+**Human Made Global - Remote**
 
 January 2017 - March 2020
 
 
-Sr. Full Stack Developer and Team Lead, USA Today Sports
+Senior Full Stack Developer and Team Lead, USA Today Sports
 
 
 - Led team to rebuild the NCAA Fantasy Sports Brackets product using React+Redux on top of WordPress back-end with custom WebPack configuration
@@ -82,7 +82,7 @@ Sr. Full Stack Developer and Team Lead, USA Today Sports
 
 
 
-Sr. Full Stack Developer, Encompass Health
+Senior Full Stack Developer, Encompass Health
 
 
 - Worked with team to migrate client from custom CMS to WordPress on short timeline
@@ -99,12 +99,12 @@ Sr. Full Stack Developer, Encompass Health
 
 
 
-**Vocativ - Remote (Work from Home), US**
+**Vocativ - Remote**
 
 January 2014 - December 2016
 
 
-Sr. Full Stack Developer, Vocativ.com
+Senior Full Stack Developer, Vocativ.com
 
 
 - Lead developer for REST API development
@@ -154,7 +154,7 @@ Technical Lead, TOMS.com
 
 
 
-Sr. Software Engineer, TOMS.com
+Senior Software Engineer, TOMS.com
 
 
 - Built back-end portion of a Magento module for new online Return process (RMA) and supported front-end developers
@@ -173,7 +173,7 @@ Sr. Software Engineer, TOMS.com
 September 2010 - April 2012
 
 
-Sr. Software Engineer and Team Lead, Ray-ban.com
+Senior Software Engineer and Team Lead, Ray-ban.com
 
 
 - Led Ray-Ban back-end development team for general feature and bug support
@@ -189,7 +189,7 @@ Sr. Software Engineer and Team Lead, Ray-ban.com
 
 
 
-Sr. Software Engineer
+Senior Software Engineer
 
 
 - Built Fraud Detection module for Magento

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Scott Weaver &ndash; Sr. Full Stack Engineer</title>
+    <title>Scott Weaver &ndash; Senior Full Stack Engineer</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
       rel="stylesheet"
@@ -13,202 +13,265 @@
         font-family: Roboto, sans-serif;
       }
 
+      body {
+        color: #333;
+      }
+
+      h2 {
+        color: #1bab9e;
+        text-transform: uppercase;
+        border-bottom: 1px solid #ccc;
+      }
+
+      .container {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 800px;
+      }
+
+      ul {
+        list-style: none;
+      }
+
+      ul li::before {
+        content: '\2022';
+        color: #999;
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+      }
+
+      .contact-info {
+        margin-left: 0;
+        padding-left: 20px;
+        border-left: 5px solid #e7e9ec;
+      }
+
       .company {
         width: 100%;
       }
       .company__right {
         text-align: right;
+        vertical-align: top;
+      }
+      .company__name {
+        font-weight: bold;
+        font-size: 20px;
+      }
+      .company__location {
+        color: #999;
+      }
+      .company__timespan {
+        color: #555;
+        margin: 0;
+        font-style: italic;
+      }
+      .company__job__title {
+        color: #333;
       }
     </style>
   </head>
   <body>
-    <blockquote>
-      <a href="mailto:scottmweaver@gmail.com" target="_blank">scottmweaver@gmail.com</a> |
-      <a href="tel:949-209-9040" target="_blank">949-209-9040</a>
-    </blockquote>
+    <div class="container">
+      <blockquote class="contact-info">
+        <a href="mailto:scottmweaver@gmail.com" target="_blank">scottmweaver@gmail.com</a> |
+        <a href="tel:949-209-9040" target="_blank">949-209-9040</a>
+      </blockquote>
 
-    <h1>Scott Weaver &ndash; Sr. Full Stack Engineer</h1>
+      <h1>Scott Weaver &ndash; Senior Full Stack Engineer</h1>
 
-    <h2>Qualifications</h2>
-    <ul>
-      <li>Writes well-tested, clean code with easy-to-read documentation</li>
-      <li>Has strong analytical skills and loves resolving bugs</li>
-      <li>Enjoys learning, challenges and working with team members to accomplish goals</li>
-      <li>Takes care to communicate effectively!</li>
-    </ul>
+      <h2>Qualifications</h2>
+      <ul>
+        <li>Writes well-tested, clean code with easy-to-read documentation</li>
+        <li>Has strong analytical skills and loves resolving bugs</li>
+        <li>Enjoys learning, challenges and working with team members to accomplish goals</li>
+        <li>Takes care to communicate effectively!</li>
+      </ul>
 
-    <h2>Skills/Tools</h2>
-    <ul>
-      <li>Progamming Languages: PHP7, JavaScript ES6&#x2F;7, CSS, SASS, Stylus, HTML, Python, Ruby, MySQL</li>
-      <li>Frameworks: React, Redux, Node.js, Express, Laravel, Zend Framework</li>
-      <li>Platforms: WordPress, Magento</li>
-      <li>Automation Software: Webpack, Gulp, Grunt, Jenkins</li>
-      <li>Methodologies: Agile, Scrum, Object-oriented Programming (OOP)</li>
-    </ul>
+      <h2>Skills/Tools</h2>
+      <ul>
+        <li><strong>Progamming Languages:</strong> PHP7, JavaScript ES6&#x2F;7, CSS, SASS, Stylus, HTML, Python, Ruby, MySQL</li>
+        <li><strong>Frameworks:</strong> React, Redux, Node.js, Express, Laravel, Zend Framework</li>
+        <li><strong>Platforms:</strong> WordPress, Magento</li>
+        <li><strong>Automation Software:</strong> Webpack, Gulp, Grunt, Jenkins</li>
+        <li><strong>Methodologies:</strong> Agile, Scrum, Object-oriented Programming (OOP)</li>
+      </ul>
 
-    <h2>Experience</h2>
+      <h2>Professional Experience</h2>
 
-    <!-- TODO: Switch this to a grid layout -->
-    <table class="company">
-      <tr class="company__row">
-        <td class="company__left">
-          <div class="company__name">The Walt Disney Company</div>
-        </td>
-        <td class="company__right">
-          <div class="company__location">Burbank, CA</div>
-          <div class="company__timespan">March 2020 - Present</div>
-        </td>
-      </tr>
-      <tr class="company__row">
-        <td class="company__jobs" colspan="2">
-          <div>
-            Sr. Full Stack Engineer, Newsreel
+      <!-- TODO: Switch this to a grid layout -->
+      <table class="company">
+        <tr class="company__row">
+          <td class="company__left">
+            <div class="company__name">
+              The Walt Disney Company
+            </div>
+            <div class="company__location">Burbank, CA</div>
+          </td>
+          <td class="company__right">
+            <div class="company__timespan">March 2020 - Present</div>
+          </td>
+        </tr>
+        <tr class="company__row">
+          <td class="company__jobs" colspan="2">
+            <div cass="company__job">
+              <h4 class="company__job__title">Senior Full Stack Engineer, Newsreel</h4>
 
-            <ul>
-              <li>Assist team to implement features, maintenance and bug fixes on a variety of internal-facing Disney properties</li>
-            </ul>
-          </div>
-        </td>
-      </tr>
-    </table>
-    <!-- TODO: Switch this to a grid layout -->
-    <table class="company">
-      <tr class="company__row">
-        <td class="company__left">
-          <div class="company__name">Human Made Global</div>
-        </td>
-        <td class="company__right">
-          <div class="company__location">Remote (Work from Home), US</div>
-          <div class="company__timespan">January 2017 - March 2020</div>
-        </td>
-      </tr>
-      <tr class="company__row">
-        <td class="company__jobs" colspan="2">
-          <div>
-            Sr. Full Stack Developer and Team Lead, USA Today Sports
+              <ul>
+                <li>Assist team to implement features, maintenance and bug fixes on a variety of internal-facing Disney properties</li>
+              </ul>
+            </div>
+          </td>
+        </tr>
+      </table>
+      <!-- TODO: Switch this to a grid layout -->
+      <table class="company">
+        <tr class="company__row">
+          <td class="company__left">
+            <div class="company__name">
+              Human Made Global
+            </div>
+            <div class="company__location">Remote</div>
+          </td>
+          <td class="company__right">
+            <div class="company__timespan">January 2017 - March 2020</div>
+          </td>
+        </tr>
+        <tr class="company__row">
+          <td class="company__jobs" colspan="2">
+            <div cass="company__job">
+              <h4 class="company__job__title">Senior Full Stack Developer and Team Lead, USA Today Sports</h4>
 
-            <ul>
-              <li>Led team to rebuild the NCAA Fantasy Sports Brackets product using React+Redux on top of WordPress back-end with custom WebPack configuration</li>
-              <li>Created plugin to facilitate ongoing content import from Content API GraphQL endpoint to various key sites</li>
-              <li>Led team to integrate USA Today Sports network of sites with Gannett Content API</li>
-              <li>Led team to migrate Food Channel from Django to WordPress VIP platform</li>
-              <li>Assist team to maintain Continuous Integration processes</li>
-              <li>Assist team in augmenting test coverage and accessibility for existing and new features</li>
-            </ul>
-          </div>
-          <div>
-            Sr. Full Stack Developer, Encompass Health
+              <ul>
+                <li>Led team to rebuild the NCAA Fantasy Sports Brackets product using React+Redux on top of WordPress back-end with custom WebPack configuration</li>
+                <li>Created plugin to facilitate ongoing content import from Content API GraphQL endpoint to various key sites</li>
+                <li>Led team to integrate USA Today Sports network of sites with Gannett Content API</li>
+                <li>Led team to migrate Food Channel from Django to WordPress VIP platform</li>
+                <li>Assist team to maintain Continuous Integration processes</li>
+                <li>Assist team in augmenting test coverage and accessibility for existing and new features</li>
+              </ul>
+            </div>
+            <div cass="company__job">
+              <h4 class="company__job__title">Senior Full Stack Developer, Encompass Health</h4>
 
-            <ul>
-              <li>Worked with team to migrate client from custom CMS to WordPress on short timeline</li>
-              <li>Implemented strong accessibility standards throughout</li>
-              <li>Implemented search functionality with Elasticsearch back-end</li>
-              <li>Built components with excellent test coverage</li>
-            </ul>
-          </div>
-        </td>
-      </tr>
-    </table>
-    <!-- TODO: Switch this to a grid layout -->
-    <table class="company">
-      <tr class="company__row">
-        <td class="company__left">
-          <div class="company__name">Vocativ</div>
-        </td>
-        <td class="company__right">
-          <div class="company__location">Remote (Work from Home), US</div>
-          <div class="company__timespan">January 2014 - December 2016</div>
-        </td>
-      </tr>
-      <tr class="company__row">
-        <td class="company__jobs" colspan="2">
-          <div>
-            Sr. Full Stack Developer, Vocativ.com
+              <ul>
+                <li>Worked with team to migrate client from custom CMS to WordPress on short timeline</li>
+                <li>Implemented strong accessibility standards throughout</li>
+                <li>Implemented search functionality with Elasticsearch back-end</li>
+                <li>Built components with excellent test coverage</li>
+              </ul>
+            </div>
+          </td>
+        </tr>
+      </table>
+      <!-- TODO: Switch this to a grid layout -->
+      <table class="company">
+        <tr class="company__row">
+          <td class="company__left">
+            <div class="company__name">
+              Vocativ
+            </div>
+            <div class="company__location">Remote</div>
+          </td>
+          <td class="company__right">
+            <div class="company__timespan">January 2014 - December 2016</div>
+          </td>
+        </tr>
+        <tr class="company__row">
+          <td class="company__jobs" colspan="2">
+            <div cass="company__job">
+              <h4 class="company__job__title">Senior Full Stack Developer, Vocativ.com</h4>
 
-            <ul>
-              <li>Lead developer for REST API development</li>
-              <li>Built REST API endpoint for SocialMap feature using Node.js and MongoDB</li>
-              <li>Built test-covered React components for front-end</li>
-              <li>Performed daily code reviews on all new features and bug fixes using Github</li>
-              <li>Assisted junior developers with onboarding, environment setup and general support</li>
-              <li>Worked with offshore team members on a continual basis</li>
-              <li>Led team that created News section using Backbone.js</li>
-            </ul>
-          </div>
-        </td>
-      </tr>
-    </table>
-    <!-- TODO: Switch this to a grid layout -->
-    <table class="company">
-      <tr class="company__row">
-        <td class="company__left">
-          <div class="company__name">Deloitte Consulting</div>
-        </td>
-        <td class="company__right">
-          <div class="company__location">Marina del Rey, CA</div>
-          <div class="company__timespan">April 2012 - May 2014</div>
-        </td>
-      </tr>
-      <tr class="company__row">
-        <td class="company__jobs" colspan="2">
-          <div>
-            Technical Lead, TOMS.com
+              <ul>
+                <li>Lead developer for REST API development</li>
+                <li>Built REST API endpoint for SocialMap feature using Node.js and MongoDB</li>
+                <li>Built test-covered React components for front-end</li>
+                <li>Performed daily code reviews on all new features and bug fixes using Github</li>
+                <li>Assisted junior developers with onboarding, environment setup and general support</li>
+                <li>Worked with offshore team members on a continual basis</li>
+                <li>Led team that created News section using Backbone.js</li>
+              </ul>
+            </div>
+          </td>
+        </tr>
+      </table>
+      <!-- TODO: Switch this to a grid layout -->
+      <table class="company">
+        <tr class="company__row">
+          <td class="company__left">
+            <div class="company__name">
+              Deloitte Consulting
+            </div>
+            <div class="company__location">Marina del Rey, CA</div>
+          </td>
+          <td class="company__right">
+            <div class="company__timespan">April 2012 - May 2014</div>
+          </td>
+        </tr>
+        <tr class="company__row">
+          <td class="company__jobs" colspan="2">
+            <div cass="company__job">
+              <h4 class="company__job__title">Technical Lead, TOMS.com</h4>
 
-            <ul>
-              <li>Worked with team to decrease average site load time from 12 seconds to 3.5 seconds</li>
-              <li>Worked with Infrastructure team to improve deployments to non-production-environments</li>
-              <li>Worked with QA team to implement Selenium testing coupled with Magento Test Framework</li>
-              <li>Created documentation for Magento developer code standards for TOMS</li>
-              <li>Led development team to introduce code review process before code goes to non-local environments</li>
-            </ul>
-          </div>
-          <div>
-            Sr. Software Engineer, TOMS.com
+              <ul>
+                <li>Worked with team to decrease average site load time from 12 seconds to 3.5 seconds</li>
+                <li>Worked with Infrastructure team to improve deployments to non-production-environments</li>
+                <li>Worked with QA team to implement Selenium testing coupled with Magento Test Framework</li>
+                <li>Created documentation for Magento developer code standards for TOMS</li>
+                <li>Led development team to introduce code review process before code goes to non-local environments</li>
+              </ul>
+            </div>
+            <div cass="company__job">
+              <h4 class="company__job__title">Senior Software Engineer, TOMS.com</h4>
 
-            <ul>
-              <li>Built back-end portion of a Magento module for new online Return process (RMA) and supported front-end developers</li>
-              <li>Built Magento module to improve cache invalidation using URLs rather than existing cache keys, and used SQS to perform debounced invalidation requests</li>
-              <li>Reduced production bug backlog by over 75%</li>
-            </ul>
-          </div>
-        </td>
-      </tr>
-    </table>
-    <!-- TODO: Switch this to a grid layout -->
-    <table class="company">
-      <tr class="company__row">
-        <td class="company__left">
-          <div class="company__name">Oakley</div>
-        </td>
-        <td class="company__right">
-          <div class="company__location">Foothill Ranch, CA</div>
-          <div class="company__timespan">September 2010 - April 2012</div>
-        </td>
-      </tr>
-      <tr class="company__row">
-        <td class="company__jobs" colspan="2">
-          <div>
-            Sr. Software Engineer and Team Lead, Ray-ban.com
+              <ul>
+                <li>Built back-end portion of a Magento module for new online Return process (RMA) and supported front-end developers</li>
+                <li>Built Magento module to improve cache invalidation using URLs rather than existing cache keys, and used SQS to perform debounced invalidation requests</li>
+                <li>Reduced production bug backlog by over 75%</li>
+              </ul>
+            </div>
+          </td>
+        </tr>
+      </table>
+      <!-- TODO: Switch this to a grid layout -->
+      <table class="company">
+        <tr class="company__row">
+          <td class="company__left">
+            <div class="company__name">
+              Oakley
+            </div>
+            <div class="company__location">Foothill Ranch, CA</div>
+          </td>
+          <td class="company__right">
+            <div class="company__timespan">September 2010 - April 2012</div>
+          </td>
+        </tr>
+        <tr class="company__row">
+          <td class="company__jobs" colspan="2">
+            <div cass="company__job">
+              <h4 class="company__job__title">Senior Software Engineer and Team Lead, Ray-ban.com</h4>
 
-            <ul>
-              <li>Led Ray-Ban back-end development team for general feature and bug support</li>
-              <li>Built SAP module for Magento to handle price and status updates, and order exports</li>
-              <li>Implemented autonomous tax import for Ray-Ban</li>
-              <li>Launched Ray-Ban incentives promotion feature</li>
-            </ul>
-          </div>
-          <div>
-            Sr. Software Engineer
+              <ul>
+                <li>Led Ray-Ban back-end development team for general feature and bug support</li>
+                <li>Built SAP module for Magento to handle price and status updates, and order exports</li>
+                <li>Implemented autonomous tax import for Ray-Ban</li>
+                <li>Launched Ray-Ban incentives promotion feature</li>
+              </ul>
+            </div>
+            <div cass="company__job">
+              <h4 class="company__job__title">Senior Software Engineer</h4>
 
-            <ul>
-              <li>Built Fraud Detection module for Magento</li>
-              <li>Created LDAP Authentication module for Magento</li>
-              <li>Built custom Order Management System for Ray-Ban Magento</li>
-              <li>Rebuilt incentives functionality for http:&#x2F;&#x2F;www.oakley.com Rails back-end</li>
-            </ul>
-          </div>
-        </td>
-      </tr>
-    </table>
+              <ul>
+                <li>Built Fraud Detection module for Magento</li>
+                <li>Created LDAP Authentication module for Magento</li>
+                <li>Built custom Order Management System for Ray-Ban Magento</li>
+                <li>Rebuilt incentives functionality for http:&#x2F;&#x2F;www.oakley.com Rails back-end</li>
+              </ul>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
   </body>
 </html>
