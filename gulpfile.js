@@ -19,10 +19,13 @@ function clean(cb) {
  */
 function pdf(cb) {
   src('dist/scott-weaver_resume.html').pipe(gulpHtmlPdf()).pipe(dest('dist'));
-
   cb();
 }
 
+/**
+ * Generate HTML version of resume.
+ * @param {function} cb Callback function.
+ */
 function html(cb) {
   src('src/templates/scott-weaver_resume.html.mustache')
     .pipe(gulpMustache('src/data/resume.json'))
@@ -31,6 +34,10 @@ function html(cb) {
   cb();
 }
 
+/**
+ * Generate Markdown version of resume.
+ * @param {function} cb Callback function.
+ */
 function markdown(cb) {
   src('src/templates/scott-weaver_resume.md.mustache')
     .pipe(gulpMustache('src/data/resume.json'))
