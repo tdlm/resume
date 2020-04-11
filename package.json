@@ -1,17 +1,23 @@
 {
-  "name": "Resume",
+  "name": "resume",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Scott Weaver's Resume / CV and Resume Generator",
   "scripts": {
     "build": "gulp build",
     "start": "gulp watcher",
     "watch": "gulp watcher",
     "clean": "gulp clean"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "generator",
+    "gulp",
+    "markdown",
+    "mustache",
+    "resume",
+    "resume generator"
+  ],
+  "author": "Scott Weaver <scottmweaver@gmail.com>",
+  "license": "MIT",
   "dependencies": {},
   "devDependencies": {
     "gulp": "^4.0.2",
@@ -19,8 +25,7 @@
     "gulp-html2pdf": "^0.1.3",
     "gulp-mustache": "^5.0.0",
     "gulp-rename": "^2.0.0",
-    "gulp-template": "^5.0.0",
-    "gulp-yaml": "^2.0.4"
+    "gulp-template": "^5.0.0"
   },
   "prettier": {
     "arrowParens": "avoid",
@@ -41,5 +46,6 @@
         }
       }
     ]
-  }
+  },
+  "private": true
 }
