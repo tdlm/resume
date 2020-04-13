@@ -55,6 +55,25 @@ Senior Full Stack Engineer, Newsreel
 
 
 
+**Gun.io - Remote (Freelance)**
+
+January 2020 - Present
+
+
+Senior WordPress Developer, TheALevelBiologist
+
+
+- Implemented a working subscription system using WooCommerce&#x2F;Courseware plugins for students to pay to access course content using
+
+
+- Updated plugins, theme and styling to be up to date, consistent and easier to manage
+
+
+- Successfully launched completely updated version 2.0 of the site
+
+
+
+
 **Human Made Global - Remote**
 
 January 2017 - March 2020
