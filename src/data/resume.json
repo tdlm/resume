@@ -4,7 +4,7 @@
   "email": "scottmweaver@gmail.com",
   "phone": "949-209-9040",
   "website": "https://scottmw.com",
-  "about": "Scott has been programming since the age of 10 and has over 15 years of professional experience in web application development. While his focus has been mainly on PHP-based development platforms (Drupal, WordPress, Magento), more recently he has focused on the benefits of using Node.js+React in conjunction with REST API to create a much-improved, isomorphic experience for the end user that scales well. Outside of work, his interests run from writing short fiction to creating/improving open source projects.",
+  "about": "Scott has been programming since the age of 10 and has over 15 years of professional experience in web application development. While his focus has been mainly on PHP-based development platforms (WordPress, Magento, etc.), more recently he has focused on the benefits of using React and Redux in conjunction with REST API to create a much-improved experience for the end user that scales well. Outside of work, his interests run from writing short fiction to creating/improving open source projects.",
   "profiles": [
     {
       "service": "Github",
@@ -46,7 +46,7 @@
   "skills": [
     {
       "title": "Progamming Languages",
-      "items": "PHP7, JavaScript ES6/7, CSS, SASS, Stylus, HTML, Python, Ruby, MySQL"
+      "items": "PHP7, JavaScript ES6/ES7/Node.js, CSS, SASS, Stylus, HTML, Python, Ruby, MySQL"
     },
     {
       "title": "Frameworks",
