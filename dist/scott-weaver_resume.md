@@ -22,7 +22,7 @@
 ## Skills
 
 
-- **Progamming Languages**: PHP7, JavaScript ES6&#x2F;7, CSS, SASS, Stylus, HTML, Python, Ruby, MySQL
+- **Progamming Languages**: PHP7, JavaScript ES6&#x2F;ES7&#x2F;Node.js, CSS, SASS, Stylus, HTML, Python, Ruby, MySQL
 
 
 - **Frameworks**: React, Redux, Node.js, Express, Laravel, Zend Framework
