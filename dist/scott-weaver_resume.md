@@ -42,19 +42,6 @@
 ## Experience
 
 
-**The Walt Disney Company - Burbank, CA**
-
-March 2020 - Present
-
-
-Senior Full Stack Engineer, Newsreel
-
-
-- Assist team to implement features, maintenance and bug fixes on a variety of internal-facing Disney properties
-
-
-
-
 **Gun.io - Remote (Freelance)**
 
 January 2020 - Present
@@ -70,6 +57,19 @@ Senior WordPress Developer, TheALevelBiologist
 
 
 - Successfully launched completely updated version 2.0 of the site
+
+
+
+
+**The Walt Disney Company - Burbank, CA**
+
+March 2020 - April 2020
+
+
+Senior Full Stack Engineer, Newsreel
+
+
+- Assist team to implement features, maintenance and bug fixes on a variety of internal-facing Disney properties
 
 
 

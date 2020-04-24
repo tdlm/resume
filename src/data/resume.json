@@ -67,24 +67,12 @@
   ],
   "experience": [
     {
-      "company": "The Walt Disney Company",
-      "title": "Senior Full Stack Engineer",
-      "location": "Burbank, CA",
-      "timespan": "March 2020 - Present",
-      "projects": [
-        {
-          "title": "Senior Full Stack Engineer, Newsreel",
-          "jobs": [
-            "Assist team to implement features, maintenance and bug fixes on a variety of internal-facing Disney properties"
-          ]
-        }
-      ]
-    },
-    {
       "company": "Gun.io",
       "title": "Senior Full Stack Engineer",
       "location": "Remote (Freelance)",
       "timespan": "January 2020 - Present",
+      "start_date": "",
+      "end_date": "",
       "projects": [
         {
           "title": "Senior WordPress Developer, TheALevelBiologist",
@@ -97,10 +85,28 @@
       ]
     },
     {
+      "company": "The Walt Disney Company",
+      "title": "Senior Full Stack Engineer",
+      "location": "Burbank, CA",
+      "timespan": "March 2020 - April 2020",
+      "start_date": "3/19/2020",
+      "end_date": "4/10/2020",
+      "projects": [
+        {
+          "title": "Senior Full Stack Engineer, Newsreel",
+          "jobs": [
+            "Assist team to implement features, maintenance and bug fixes on a variety of internal-facing Disney properties"
+          ]
+        }
+      ]
+    },
+    {
       "company": "Human Made Global",
       "title": "Senior Full Stack Engineer and Team Lead, USA Today Sports",
       "location": "Remote",
       "timespan": "January 2017 - March 2020",
+      "start_date": "2017/01/17",
+      "end_date": "2020/03/18",
       "projects": [
         {
           "title": "Senior Full Stack Developer and Team Lead, USA Today Sports",
@@ -129,6 +135,8 @@
       "title": "Senior Full Stack Developer",
       "location": "Remote",
       "timespan": "January 2014 - December 2016",
+      "start_date": "2014/01/22",
+      "end_date": "2016/11/24",
       "projects": [
         {
           "title": "Senior Full Stack Developer, Vocativ.com",
@@ -146,9 +154,11 @@
     },
     {
       "company": "Deloitte Consulting",
-      "title": "",
+      "title": "Technical Lead",
       "location": "Marina del Rey, CA",
       "timespan": "April 2012 - May 2014",
+      "start_date": "2012/04/09",
+      "end_date": "2014/05/20",
       "projects": [
         {
           "title": "Technical Lead, TOMS.com",
@@ -172,9 +182,11 @@
     },
     {
       "company": "Oakley",
-      "title": "",
+      "title": "Senior Software Engineer",
       "location": "Foothill Ranch, CA",
       "timespan": "September 2010 - April 2012",
+      "start_date": "2010/09/27",
+      "end_date": "2012/04/08",
       "projects": [
         {
           "title": "Senior Software Engineer and Team Lead, Ray-ban.com",
