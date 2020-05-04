@@ -42,18 +42,31 @@
 ## Experience
 
 
-**Gun.io - Remote (Freelance)**
+**Independent Contractor - Remote (Freelance)**
 
 January 2020 - Present
+
+
+Senior WordPress Developer, BIGEYE
+
+
+- Provide feature development, accessibility enhancements and bug fixing for third party BIGEYE clients
+
+
+- Fix styling and layout issues with WordPress theme
+
+
+- Provide security enhancements and updates to WordPress ecosystem
+
 
 
 Senior WordPress Developer, TheALevelBiologist
 
 
+- Update plugins, theme and styling to be up to date, consistent and easier to manage
+
+
 - Implemented a working subscription system using WooCommerce&#x2F;Courseware plugins for students to pay to access course content using
-
-
-- Updated plugins, theme and styling to be up to date, consistent and easier to manage
 
 
 - Successfully launched completely updated version 2.0 of the site
@@ -69,7 +82,10 @@ March 2020 - April 2020
 Senior Full Stack Engineer, Newsreel
 
 
-- Assist team to implement features, maintenance and bug fixes on a variety of internal-facing Disney properties
+- Assisted team to implement features, maintenance and bug fixes on a variety of internal-facing Disney using WordPress
+
+
+- Enhanced on-boarding documentation and Docker setup
 
 
 
@@ -126,7 +142,7 @@ January 2014 - December 2016
 Senior Full Stack Developer, Vocativ.com
 
 
-- Led development for REST API
+- Led development for WordPress REST API
 
 
 - Built REST API endpoint for SocialMap feature using Node.js and MongoDB
@@ -205,10 +221,6 @@ Senior Software Engineer and Team Lead, Ray-ban.com
 
 
 - Launched Ray-Ban incentives promotion feature
-
-
-
-Senior Software Engineer
 
 
 - Built Fraud Detection module for Magento
