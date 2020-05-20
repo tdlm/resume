@@ -2,20 +2,9 @@
 
 # Scott Weaver
 
-## Qualifications
+## Summary
 
-
-- Full stack engineer with focus on front-end technologies
-
-
-- Writes well-tested, clean code with easy-to-read documentation
-
-
-- Has strong analytical skills and loves resolving bugs
-
-
-- Enjoys learning, challenges and working with team members to accomplish goals
-
+I have over 15 years of professional experience in web development, focused primarily on  PHP-based platforms. For the past 6 years, I&#39;ve worked extensively with WordPress from back to front. And for 5 of those years, I have also been using React&#x2F;Redux to build enhanced experiences. I also have great experience in the eCommerce space. I write clean code with easy-to-read documentation, have strong analytical skills and love bug solving, learning and a good challenge.
 
 ---
 
@@ -199,40 +188,6 @@ Senior Magento Engineer, TOMS.com
 
 
 - Reduced production bug backlog by over 75%
-
-
-
-
-**Oakley - Foothill Ranch, CA**
-
-September 2010 - April 2012
-
-
-Senior Software Engineer and Team Lead, Ray-ban.com
-
-
-- Led Ray-Ban back-end development team for general feature and bug support
-
-
-- Built SAP module for Magento to handle price and status updates, and order exports
-
-
-- Implemented autonomous tax import for Ray-Ban
-
-
-- Launched Ray-Ban incentives promotion feature
-
-
-- Built Fraud Detection module for Magento
-
-
-- Created LDAP Authentication module for Magento
-
-
-- Built custom Order Management System for Ray-Ban Magento
-
-
-- Rebuilt incentives functionality for http:&#x2F;&#x2F;www.oakley.com Rails back-end
 
 
 

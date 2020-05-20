@@ -188,29 +188,6 @@
           ]
         }
       ]
-    },
-    {
-      "company": "Oakley",
-      "title": "Senior Magento Engineer",
-      "location": "Foothill Ranch, CA",
-      "timespan": "September 2010 - April 2012",
-      "start_date": "2010/09/27",
-      "end_date": "2012/04/08",
-      "projects": [
-        {
-          "title": "Senior Software Engineer and Team Lead, Ray-ban.com",
-          "jobs": [
-            "Led Ray-Ban back-end development team for general feature and bug support",
-            "Built SAP module for Magento to handle price and status updates, and order exports",
-            "Implemented autonomous tax import for Ray-Ban",
-            "Launched Ray-Ban incentives promotion feature",
-            "Built Fraud Detection module for Magento",
-            "Created LDAP Authentication module for Magento",
-            "Built custom Order Management System for Ray-Ban Magento",
-            "Rebuilt incentives functionality for http://www.oakley.com Rails back-end"
-          ]
-        }
-      ]
     }
   ],
   "references": [
