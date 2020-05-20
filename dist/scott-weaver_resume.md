@@ -22,19 +22,19 @@
 ## Skills
 
 
-- **Progamming Languages**: PHP7, JavaScript ES6&#x2F;ES7&#x2F;Node.js, CSS, SASS, Stylus, HTML, Python, Ruby, MySQL
+- **Platforms**: WordPress (WPCS + Gutenberg), Magento
+
+
+- **Progamming Languages**: PHP 7, JavaScript ES6&#x2F;ES7&#x2F;Node.js, CSS, SCSS&#x2F;LESS&#x2F;Stylus, HTML5, MySQL
 
 
 - **Frameworks**: React, Redux, Node.js, Express, Laravel, Zend Framework
 
 
-- **Platforms**: WordPress, Magento
+- **Automation Software**: Docker, VVV, Webpack, Gulp, Grunt, Jenkins
 
 
-- **Automation Software**: Webpack, Gulp, Grunt, Jenkins
-
-
-- **Methodologies**: Agile, Scrum, Object-oriented Programming (OOP)
+- **Methodologies**: Agile + Scrum (Jira&#x2F;Confluence), Object-oriented Programming (OOP), Gitflow (Git&#x2F;Github&#x2F;Gitlab)
 
 
 ---
@@ -47,20 +47,20 @@
 January 2020 - Present
 
 
-Senior WordPress Developer, BIGEYE
+Senior WordPress Engineer, BIGEYE
 
 
 - Provide feature development, accessibility enhancements and bug fixing for third party BIGEYE clients
 
 
-- Fix styling and layout issues with WordPress theme
+- Fix styling and layout issues with WordPress themes
 
 
 - Provide security enhancements and updates to WordPress ecosystem
 
 
 
-Senior WordPress Developer, TheALevelBiologist
+Senior WordPress Engineer, TheALevelBiologist
 
 
 - Update plugins, theme and styling to be up to date, consistent and easier to manage
@@ -79,7 +79,7 @@ Senior WordPress Developer, TheALevelBiologist
 March 2020 - April 2020
 
 
-Senior Full Stack Engineer, Newsreel
+Senior WordPress Engineer, Newsreel
 
 
 - Assisted team to implement features, maintenance and bug fixes on a variety of internal-facing Disney using WordPress
@@ -95,7 +95,7 @@ Senior Full Stack Engineer, Newsreel
 January 2017 - March 2020
 
 
-Senior Full Stack Developer and Team Lead, USA Today Sports
+Senior WordPress Engineer and Team Lead, USA Today Sports
 
 
 - Led team to rebuild the NCAA Fantasy Sports Brackets product using React+Redux on top of WordPress back-end with custom WebPack configuration
@@ -117,7 +117,7 @@ Senior Full Stack Developer and Team Lead, USA Today Sports
 
 
 
-Senior Full Stack Developer, Encompass Health
+Senior WordPress Engineer, Encompass Health
 
 
 - Worked with team to migrate client from custom CMS to WordPress on short timeline
@@ -139,7 +139,7 @@ Senior Full Stack Developer, Encompass Health
 January 2014 - December 2016
 
 
-Senior Full Stack Developer, Vocativ.com
+Senior WordPress Engineer, Vocativ.com
 
 
 - Led development for WordPress REST API
@@ -189,7 +189,7 @@ Technical Lead, TOMS.com
 
 
 
-Senior Software Engineer, TOMS.com
+Senior Magento Engineer, TOMS.com
 
 
 - Built back-end portion of a Magento module for new online Return process (RMA) and supported front-end developers
